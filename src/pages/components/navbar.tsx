@@ -6,7 +6,7 @@ const Navbar = () => {
       <div className="flex items-center space-x-6">
         <div className="bg-green-400 w-4 h-4 rounded-full">{/* Icon */}</div>
       </div>
-      <div className="flex space-x-6">
+      <div className="flex space-x-2">
         <div className="text-gray-400">Trading</div>
         <div className="text-gray-400">Pricing</div>
         <div className="text-gray-400">Dashboard</div>
