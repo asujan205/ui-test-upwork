@@ -2,7 +2,7 @@ import Tabs from "./tabs";
 
 const TableComponent = () => {
   return (
-    <div className="rounded-lg p-4 flex flex-col gap-3 w-[70%] shadow-md">
+    <div className="rounded-lg p-4 flex flex-col gap-3 w-[70%] shadow-md bg-gray-800 bg-opacity-50">
       <Tabs
         tabs={[
           { name: "Balances", key: "balances" },
@@ -11,7 +11,7 @@ const TableComponent = () => {
         ]}
       />
       {/* Trading Table */}
-      <div className="mt-4 w-full overflow-x-auto">
+      <div className="mt-4 w-full overflow-x-auto ">
         <table className="w-full text-sm text-left">
           <thead>
             <tr className="text-gray-400 border-b border-gray-800">
