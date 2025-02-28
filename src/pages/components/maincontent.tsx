@@ -4,7 +4,7 @@ import TableComponent from "./table";
 
 const MainContent = () => {
   return (
-    <div className="rounded-lg p-4 flex flex-col gap-3 w-[70%] shadow-md bg-gray-800 bg-opacity-50">
+    <div className="rounded-lg p-4 flex flex-col gap-3 shadow-md bg-gray-800 bg-opacity-50">
       <div className="flex items-center mb-4">
         <button className="mr-2 text-gray-400">
           <ArrowLeft size={20} />
